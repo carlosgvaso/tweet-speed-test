@@ -1,0 +1,5 @@
+# Add patterns to ignore
+
+# Ignore Python's executables
+*.pyc
+
