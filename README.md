@@ -5,8 +5,9 @@ Python app which uses the speedtest-cli utility to gather the ping, download and
 Author: Jose Carlos Martinez Garcia-Vaso
 
 ## Installation
-1. Install the speedtest-cli utility.
-2. Intall the Twitter API for python, i.e.:
+1. Install the speedtest-cli utility, i.e.: 
+    $ sudo pacman -S speedtest-cli
+2. Intall the Twitter API for python, i.e.: 
     $ pip install twitter
 3. Add Twitter developer access tokens.
 4. Enjoy!
