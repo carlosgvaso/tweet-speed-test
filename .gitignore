@@ -3,3 +3,7 @@
 # Ignore Python's executables
 *.pyc
 
+# Ignore log files
+*.csv
+*.log
+
