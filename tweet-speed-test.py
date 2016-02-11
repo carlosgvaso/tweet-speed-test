@@ -1,9 +1,8 @@
-#!/usr/bin/python2
+#!/usr/bin/env python
 
 # Tweets the ISP if the internet speed falls below s threshold.
 ####################################################################################
 
-#import sys
 import logging
 import twitter
 from csv import writer
@@ -53,7 +52,7 @@ def speedTest():
 	global download
 	global upload
 	
-        #run speedtest-cli
+        # Run speedtest-cli
         logging.debug('Running speedtest')
 	
 	try:
