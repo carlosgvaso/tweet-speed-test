@@ -30,10 +30,10 @@ csv_dir = "/home/jcarlos/speedtest/csv/"
 csv_header = "Timestamp,Ping (ms),Download (Mbps),Upload (Mbps)\n"
 
 # Twitter OAuth parameters
-token = "940697372-29SzrOvWrKQ5jh9FxCgNbhEGv8LyUnGTYESMQiP1"
-token_secret = "pO5vXmlaoDfpaFd1t3mv7CLzUQZbuh4Dq2CpnVW3fXYhF"
-consumer_key = "8WkVLSsdi9gxjpWD7bdmzRk8O"
-consumer_secret = "JbKava4nMCUSgEKhFBBrRJeYqbsCqKOUC6jcmPPdqHxmR2o7H0"
+token = ""
+token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 # Twitter statuses
 tweet_down_msg = "Hey @ATT @Uverse @ATTCares why is my internet down? I pay for 6down\\1up in Austin, TX? #attoutage #att  #fixit"
