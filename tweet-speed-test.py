@@ -26,7 +26,7 @@ down_speed_threshold = 4
 date = datetime.fromtimestamp(time()).strftime('%Y-%m')
 
 # CSV
-csv_dir = "/home/alarm/speedtest/csv/"
+csv_dir = "/home/jcarlos/speedtest/csv/"
 csv_header = "Timestamp,Ping (ms),Download (Mbps),Upload (Mbps)\n"
 
 # Twitter OAuth parameters
@@ -42,7 +42,7 @@ tweet_slow_msg = "Hey @ATT @Uverse @ATTCares why is my internet speed {0:.2f}dow
 # Logger
 log_level = logging.DEBUG
 log_format = '%(asctime)s:%(levelname)s:%(funcName)s: %(message)s'
-log_folder = "/home/alarm/speedtest/log/"
+log_folder = "/home/jcarlos/speedtest/log/"
 log_file = "speedtest-" + date + ".log" 
 
 # Functions
